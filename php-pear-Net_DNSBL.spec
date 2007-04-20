@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - DNSBL Checker
 Name:		php-pear-%{_pearname}
-Version:	1.1.0
+Version:	1.2.1
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
