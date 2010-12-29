@@ -37,6 +37,9 @@ rm -rf %{buildroot}%{_datadir}/pear/tests
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
+# nuke useless(?) files
+rm -rf %{buildroot}%{_datadir}/pear/data/Net_DNSBL/build.xml
+
 %clean
 rm -rf %{buildroot}
 
