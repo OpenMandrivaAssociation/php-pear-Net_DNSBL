@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.3.3
-Release:	%mkrel 3
+Version:	1.3.4
+Release:	%mkrel 1
 Summary:	DNSBL Checker
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Net_DNSBL/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
